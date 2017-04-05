@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "DWLogUnicode"
-  s.version      = "0.0.3"
+  s.version      = "1.0.0"
   s.summary      = "Convert a unicode hex code into an NSString consisting of the unicode character referenced."
 
   # This description is used to generate tags and improve search results.
@@ -80,7 +80,7 @@ Pod::Spec.new do |s|
   #  Supports git, hg, bzr, svn and HTTP.
   #
 
-  s.source       = { :git => "https://github.com/dev-wqq/DWLogUnicode.git", :tag => "v0.0.3" }
+  s.source       = { :git => "https://github.com/dev-wqq/DWLogUnicode.git", :tag => "v1.0.0" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
