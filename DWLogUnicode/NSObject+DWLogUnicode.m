@@ -47,9 +47,9 @@
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        [NSObject dw_swizzleInstanceMethod:@selector(description) with:@selector(_dw_description)];
-        [NSObject dw_swizzleInstanceMethod:@selector(descriptionWithLocale:) with:@selector(_dw_descriptionWithLocale:)];
-        [NSObject dw_swizzleInstanceMethod:@selector(descriptionWithLocale:indent:) with:@selector(_dw_descriptionWithLocale:indent:)];
+        [self dw_swizzleInstanceMethod:@selector(description) with:@selector(_dw_description)];
+        [self dw_swizzleInstanceMethod:@selector(descriptionWithLocale:) with:@selector(_dw_descriptionWithLocale:)];
+        [self dw_swizzleInstanceMethod:@selector(descriptionWithLocale:indent:) with:@selector(_dw_descriptionWithLocale:indent:)];
     });
 }
 
@@ -76,9 +76,9 @@
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        [NSObject dw_swizzleInstanceMethod:@selector(description) with:@selector(_dw_description)];
-        [NSObject dw_swizzleInstanceMethod:@selector(descriptionWithLocale:) with:@selector(_dw_descriptionWithLocale:)];
-        [NSObject dw_swizzleInstanceMethod:@selector(descriptionWithLocale:indent:) with:@selector(_dw_descriptionWithLocale:indent:)];
+        [self dw_swizzleInstanceMethod:@selector(description) with:@selector(_dw_description)];
+        [self dw_swizzleInstanceMethod:@selector(descriptionWithLocale:) with:@selector(_dw_descriptionWithLocale:)];
+        [self dw_swizzleInstanceMethod:@selector(descriptionWithLocale:indent:) with:@selector(_dw_descriptionWithLocale:indent:)];
     });
 }
 
@@ -105,9 +105,9 @@
 + (void)load {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        [NSObject dw_swizzleInstanceMethod:@selector(description) with:@selector(_dw_description)];
-        [NSObject dw_swizzleInstanceMethod:@selector(descriptionWithLocale:) with:@selector(_dw_descriptionWithLocale:)];
-        [NSObject dw_swizzleInstanceMethod:@selector(descriptionWithLocale:indent:) with:@selector(_dw_descriptionWithLocale:indent:)];
+        [self dw_swizzleInstanceMethod:@selector(description) with:@selector(_dw_description)];
+        [self dw_swizzleInstanceMethod:@selector(descriptionWithLocale:) with:@selector(_dw_descriptionWithLocale:)];
+        [self dw_swizzleInstanceMethod:@selector(descriptionWithLocale:indent:) with:@selector(_dw_descriptionWithLocale:indent:)];
     });
 }
 
